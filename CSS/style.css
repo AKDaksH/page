@@ -1,0 +1,190 @@
+body{
+  text-align:center;
+  margin:0;
+  font-family: 'Merriweather', serif;
+  font-size:100% ;
+  color:#40514E;
+}
+.top-container{
+  background-color:#ddf3f5;
+  position:relative;
+  padding-top: 8.589vw;
+  /* height: device-height; */
+}
+.middle-container{
+  /* background-color: gold;
+border:solid 20px;
+height: 200px;
+width: 200px;
+margin-left: 260px; */
+padding: 7.8125vw 0;
+}
+
+.bottom-container{
+  /* background-color: red;
+  border:solid 10px;
+  height: 200px;
+  width:device-width;
+  margin-left: 500px; */
+  background-color: #66bfbf;
+  padding: 3.9vw 0 1.56vw;
+}
+h1{
+  margin: 3.90vw auto 0 auto;
+  /* margin-bottom: 0; */
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+  font-size: 7vw;
+  color:#66BFBF;
+  /* line-height: 2; */
+}
+h2{font-family: 'Montserrat', sans-serif;
+  /* font-size:2.5rem; */
+  font-weight: normal;
+  color:#66BFBF;
+  padding-bottom: 0.78vw;
+  font-size: 1.15vw;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:#11999E;
+  font-size: 1.15vw;
+}
+.bottom-cloud{
+  position:absolute;
+  width:7%;
+  left:15%;
+  bottom:30%;
+  /* background-color: red; */
+}
+.top-cloud{
+
+  position:absolute;
+  width:7%;
+  right:15%;
+  top:5%;
+
+}
+.mount{
+  /* height:500px;*/
+  width:50%;
+  margin-top: 6.25vw;
+  /* margin-bottom: 0; */
+}
+.me{
+  /* position: absolute; */
+  margin:auto auto 1.56vw auto;
+  /* margin-bottom:20px; */
+  height:auto;
+  width:12%;
+}
+.computer-img{
+  /* padding-top:50px; */
+  width:25%;
+  /* min-height: 100%; */
+  float: left;
+  margin-right: 2.342vw;
+  /* border-radius:50px; */
+  /* border-top-right-radius: 100px; */
+}
+
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin:0.78vw 1.56vw;
+  font-size: 1.15vw;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size:1.25vw;
+  padding: 1.56vw 0;
+
+}
+.top-detail{
+  line-height:1;
+  font-weight:bold;
+
+}
+.logo{
+  height:5%;
+  width:5%;
+  position:fixed;
+  left: 0;
+  top: 0;
+}
+.skill-row{
+  width:50vw;
+
+  margin:7.81vw auto 7.81vw auto;
+  text-align:left;
+  line-height: 2;
+}
+.chilli-img{
+  width: 25%;
+  float: left;
+  margin-right: 2.34vw;
+  /* height: 100%; */
+}
+.physics-img{
+  width:25%;
+  /* max-height: 100%; */
+  height: 150px;
+  float: right;
+  margin-left: 2.34vw;
+  /* height: 50%; */
+}
+/* .descrip-skills{
+  clear:left;
+}
+.descrip-skills-pyhsics{
+  clear:right;
+} */
+hr{
+  border: dotted 0.468vw #EAF6F6;
+  border-top-style: none;
+  margin:7.81vw auto;
+  width: 5%;
+}
+.intro{
+  width:30%;
+  margin:auto;
+}
+p{
+  line-height: 2;
+  font-size:1.15vw;
+}
+.contact-msg{
+  width: 40%;
+  margin: 3.12vw auto 4.68vw;
+}
+.btn {
+	box-shadow: 0 1vw 1.25vw -0.6vw #276873;
+	background:linear-gradient(to bottom, #11CDD4, #1199E9 100%);
+	background-color:#64b0cc;
+	border-radius:3.75vw;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.15vw;
+	font-weight:bold;
+	padding:1vw 2.5vw;
+	text-decoration:none;
+	text-shadow:0 0.07vw 0 #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CD 5%, #22BBCA 100%);
+	background-color:#32afc2;
+}
+.btn:active {
+	position:relative;
+	top:0.0781vw;
+}
+.profile{
+position: relative;
+}
